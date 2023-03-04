@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+#wrapper{
+    width: 800px;
+    min-height:1050px;
+    background-color: skyblue;
+}
+#wrapper h1{font-size: 45px;
+    text-align: center;
+    padding-top: 25px;
+
+}
+input,select{
+    padding: 10px;
+}
+#helo{
+    line-height: 2;
+    margin-top:30px;
+    margin-left:55px;
+    padding:35px;
+    background-color:seashell;
+    width:600px;
+        }
+        #hum{
+            margin-top: 25px;
+            margin-left: 55px;
+        }
+        #hum input{
+            background-color: cornflowerblue;
+            color:white;
+            padding:10px;
+        }
+    </style>
+</head>
+    <div id="wrapper">
+        <h1>Good Vibes Form</h1>
+
+    <div id="helo">
+        <h2>Tell us something positive that happened to you today</h2>
+        <form>
+            Name<br><input type="text" name="myname" placeholder="Enter your name"><br>
+            E-mail<br><input type="email" name="myemail" placeholder="Enter your email address"><br>
+            On a Scale of 1-10, how good was it?<br>
+            <input type="number" name="good" placeholder="Enter the number between 1 and 10"><br>
+            Where did it happen?<br><select name="happen" id="happened">
+            <option value="home">At Home</option>
+            <option value="commute">On my commute</option>
+            <option value="work"> At Work</option>
+            <option value="street">On the street</option>
+            <option value="other">Other </option></select><br>
+            At what time of day did it happens?<br>
+            <input type="radio" name="myday">Morning<br>
+            <input type="radio" name="myday">Afternoon<br>
+            <input type="radio" name="myday">Evening<br>
+            What emotion did you Experience?<br>
+            (Select all that apply)<br>
+            <input type="checkbox" name="myexp">Excited<br>
+            <input type="checkbox" name="myexp">Humbled<br>
+            <input type="checkbox" name="myexp">Elated<br>
+            <input type="checkbox" name="myexp">Loved<br>
+            <input type="checkbox" name="myexp">Enthusiastic<br>
+            Please describe your positive experience.<br>
+            <input type="textarea" name="mytext" placeholder="Enter the experience here..."><br>
+            <div id="hum"><input type="submit" value="Submit Now">
+</div>
+
+
+
+        </form>   </div></div>
+</body>
+</html>
